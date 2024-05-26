@@ -7,13 +7,9 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Tabuleiro_ tab = new Tabuleiro_(8, 8);
-
+            Tabuleiro_ tab = new Tabuleiro_(8, 8);    
             
-
-
-
-
+            Tela.imprimirTabuleiro(tab);
         }
     }
 }
