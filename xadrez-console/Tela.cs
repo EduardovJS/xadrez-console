@@ -1,5 +1,6 @@
 ﻿using System;
 using Tabuleiro;
+using xadrez;
 namespace xadrez_console
 {
     internal class Tela
@@ -25,6 +26,16 @@ namespace xadrez_console
             }
             Console.WriteLine("  A B C D E F G H");
         }
+
+        public static PosicaoXadrez lerPosicaoXadrez()
+        {
+            string s  = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1] + "");
+            return new PosicaoXadrez(coluna, linha);
+        }
+
+
         public static void ImprimirPeca (Peca peca)
         {
             if (peca.cor == Cor.Branca)
