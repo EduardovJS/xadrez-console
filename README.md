@@ -1,1 +1,2 @@
-Projeto de xadrez desenvolvido em c# que roda no console.
+## Projeto Xadrez em C#
+Este projeto foi desenvolvido em C# e roda no console.
